@@ -12,7 +12,7 @@ with some sort of depth perception from a screen and creating a function that ma
 
 
 ## Data Collection
-- Regardless of the model I was going to use, I knew that I had to collect, clean, prepare train and test data( :sadtrombone ). For data collection I used opencv in a script that tracks your face and opens a 3 by 3 screen (with hardcoded boxes that need to be changed by someone lol), and you are supposed to press the number related to the box you are staring at (e.g press 1 when looking at box 1), the data collection script also created a training and testing split of 80% for training and 20% for testing. 
+- Regardless of the model I was going to use, I knew that I had to collect, clean, prepare train and test data( :sadtrombone ). For data collection I used opencv in a script that tracks your face and you are supposed to press the number related to the where the camera window is positioned when you are staring at it(e.g press 1 when looking at the camera is at tope left, then change position and keep doing so), the data collection script also created a training and testing split of 80% for training and 20% for testing data.
 
 
 ## What is a CNN and Why I used it
