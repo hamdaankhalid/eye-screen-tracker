@@ -33,7 +33,7 @@ Training the model, and testing it brought my attention to the fact that as the 
 
 ## Setup & Running
 <ol>
-<li> install dependencies as the errors show up 
+<li> activate python3 virtual env, and install dependencies from requirements.txt
 <li> run data collector and take images
 <li> run create_model notebook with the appropriate batch and epoch size till you have a model with good accuracy but with training accuracy < validation accuracy.
 <li> run live_test.py to watch the model's preditions in realtime
