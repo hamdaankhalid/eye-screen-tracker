@@ -26,10 +26,11 @@ For those not familiar with a CNN. CNN stands for Convolutional Neural Network. 
 Training the model, and testing it brought my attention to the fact that as the number of epochs increased, more number of times the weight are changed in the neural network and the curve goes from underfitting to optimal to overfitting curve. I initially used early stop, but then I decided to use the idea that as long as the training_accuracy < testing_accuracy, I assumed this meant that my model maybe underfitting but as long as it was somewhat accurate at it's task I was happy. I was safe from the fears of overfitting (for the sake of simplicity). I then made a live test where we have 9 boxes on our screen and our model gives predictions on where I may be looking on the screen in realtime.
 
 
-## Lessons I learned
+## Key Takeaways
 <ol>
 <li> ML is fun with cleaned and pre structured data, but data collection and making sure it's clean is really hard, there were multiple times I labelled the photos wrong and it had me banging my head against the wall everytime!
-<li> Key Takeaway -> overfitting became intuitive to understand when I moved my work station to a different corner and I had to take pictures all over again because my model was really good at predicting where my face was pointing when I was sitting under the same lighting in the exact spot, but even slight variations really threw it off.
+<li> Overfitting became intuitive to understand when I moved my work station to a different corner and I had to take pictures all over again because my model was really good at predicting where my face was pointing when I was sitting under the same lighting in the exact spot, but even slight variations really threw it off.
+I learned that overfitting for this whole project came down to defining the correct task -> Do I want to be good at classifying gaze of anyone, or just of myself in my room ceteris paribus (holding other things constant)
 </ol>
 
 
